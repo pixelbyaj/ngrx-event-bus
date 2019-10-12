@@ -5,10 +5,8 @@ You can publish events to a bus and any component can subscribe the events. Subs
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
-## [Live Democ](https://angular-ngrxeventbus.stackblitz.io)
-
+## [Live Demo](https://angular-ngrxeventbus.stackblitz.io)
 ## How to consume
-
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 1. Install npm package ngrx-event-bus.
@@ -30,7 +28,6 @@ import {NgRxEventBusModule} from 'ngrx-event-bus';
 
 3. Register the events if you'd like to support events
 ```typescript
-    
     //create Event class and inherit by IEvent
     export class BusEvents implements IEvent {
         public static TitleChangeEvent: string = "TitleChangeEvent";
@@ -50,7 +47,6 @@ import {NgRxEventBusModule} from 'ngrx-event-bus';
 ```
 4. Publish Event if you'd like some one to subscribe
 ```typescript
-    
     import { EmitEvent,NgRxEventBusService } from 'ngrx-event-bus';
     export class TitleComponent {
         constructor(private eventBus: NgRxEventBusService) { }
