@@ -1,0 +1,26 @@
+{
+  "name": "ngrx-event-bus",
+  "version": "0.1.1",
+  "description": "RxJS event bus with Mediator Pattern",
+  "author": "PixelByAJ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelbyaj/ngrx-event-bus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelbyaj/ngrx-event-bus/issues"
+  },
+  "homepage": "https://github.com/pixelbyaj/ngrx-event-bus",
+  "keywords": [
+    "angular",
+    "javascript",
+    "rxjs",
+    "typescript",
+    "library"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.2.9",
+    "@angular/core": "^8.2.9"
+  }
+}

@@ -62,5 +62,5 @@ import {NgRxEventBusModule} from 'ngrx-event-bus';
 ```
 ## Thumb Rules
 1. Event class should implements by IEvent.
-2. Declare static string under Event Class.
+2. Declare static string under Event Class
   

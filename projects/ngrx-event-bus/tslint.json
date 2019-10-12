@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "rxEventBus",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ngrx-event-bus",
+      "kebab-case"
+    ]
+  }
+}
