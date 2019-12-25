@@ -1,6 +1,6 @@
 {
   "name": "ngrx-event-bus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RxJS event bus with Mediator Pattern",
   "author": "PixelByAJ",
   "repository": {
