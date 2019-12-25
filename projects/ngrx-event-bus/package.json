@@ -21,6 +21,7 @@
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^8.2.9",
-    "@angular/core": "^8.2.9"
+    "@angular/core": "^8.2.9",
+    "rxjs": "~6.4.0"
   }
 }
