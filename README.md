@@ -3,6 +3,10 @@
 Meditor Pattern based EventBus service mechanism as Angular service using RxJs. 
 You can publish events to a bus and any component can subscribe the events. Subscribers of your event (event identification is being done using event-name as string). 
 
+[![npm](https://img.shields.io/npm/dt/ngrx-event-bus.svg)](https://www.npmjs.com/package/ngrx-event-bus)
+[![npm](https://img.shields.io/github/license/pixelbyaj/ngrx-event-bus.svg)](https://github.com/pixelbyaj/ngrx-event-bus/blob/master/LICENSE)
+
+
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
 ## [Live Demo](https://angular-ngrxeventbus.stackblitz.io)
